@@ -1,0 +1,14 @@
+{
+  "name": "npmglob",
+  "version": "1.0.0",
+  "description": "what the glob?",
+  "main": "index.js",
+  "scripts": {
+    "beautify": "js-beautify -rn *.js lib/**/*.js"
+  },
+  "author": "Drew Fyock",
+  "license": "ISC",
+  "dependencies": {
+    "js-beautify": "^1.5.10"
+  }
+}
