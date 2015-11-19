@@ -1,14 +1,19 @@
 {
   "name": "npmglob",
-  "version": "1.0.0",
   "description": "what the glob?",
-  "main": "index.js",
-  "scripts": {
-    "beautify": "js-beautify -rn *.js lib/**/*.js"
-  },
+  "version": "1.0.0",
   "author": "Drew Fyock",
-  "license": "ISC",
   "dependencies": {
     "js-beautify": "^1.5.10"
+  },
+  "homepage": "https://github.com/fyockm/npmglob#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fyockm/npmglob.git"
+  },
+  "scripts": {
+    "beautify": "js-beautify -rn *.js lib/**/*.js"
   }
 }
